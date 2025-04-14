@@ -1,0 +1,14 @@
+{
+    "notify": {
+        "too_far_plate": "Estás muito longe da matrícula do carro!",
+        "cant_carry": "Não tens espaço",
+        "vehicle_owned": "Não podes tirar a matrícula deste carro"
+    },
+    "progress": {
+        "removing_plate": "A remover matrícula...",
+        "applying_plate": "A instalar matrícula..."
+    },
+    "inventory": {
+        "plate": "Matrícula %s"
+    }
+}

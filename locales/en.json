@@ -1,0 +1,14 @@
+{
+    "notify": {
+        "too_far_plate": "Too far from vehicle's plate!",
+        "cant_carry": "No inventory space",
+        "vehicle_owned": "You can't remove this vehicle's plate"
+    },
+    "progress": {
+        "removing_plate": "Removing plate...",
+        "applying_plate": "Installing plate..."
+    },
+    "inventory": {
+        "plate": "Plate %s"
+    }
+}
