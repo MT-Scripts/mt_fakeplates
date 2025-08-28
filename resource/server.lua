@@ -58,5 +58,7 @@ lib.callback.register('mt_fakeplates:server:applyVehiclePlate', function(source,
         plate = plate
     })
 
+    utils.updateVehicleTrunk(plate, item.metadata.plate)
+
     return true
 end)

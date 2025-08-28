@@ -94,4 +94,8 @@ utils.updateVehicleFakeplateDatabase = function(src, plate, newPlate)
     return affectedRows > 0
 end
 
+utils.updateVehicleTrunk = function(oldPlate, newPlate)
+    exports.ox_inventory:UpdateVehicle(oldPlate, newPlate)
+end
+
 return utils
