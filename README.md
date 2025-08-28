@@ -1,5 +1,8 @@
 # MT Fake plates
-Simple qbox fake plates script
+Just a simple fake plate script for qbox
+
+# Preview
+https://youtu.be/k0nTzOh5TFo
 
 # Installation
 Add ox_inventory items:
