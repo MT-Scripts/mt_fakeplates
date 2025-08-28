@@ -1,6 +1,6 @@
 lib.locale()
 ---@type clientUtils
-local utils = lib.load('modules.utils.client')
+local utils = require 'modules.utils.client'
 
 local useFakeplate = function(_, item)
     local pedCoords = GetEntityCoords(cache.ped)

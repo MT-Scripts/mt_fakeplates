@@ -1,11 +1,13 @@
 lib.locale()
 ---@type serverUtils
-local utils = lib.load('modules.utils.server')
+local utils = require 'modules.utils.server'
 ---@type serverConfig
-local config = lib.load('config.server')
+local config = require 'config.server'
 
 lib.callback.register('mt_fakeplates:server:removeVehiclePlate', function(source, plate, item)
     local src = source
+
+    if not plate then return false end
 
     if not (utils.getItemCount(src, config.items.screwdriver) > 0) then return false end
 
